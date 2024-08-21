@@ -91,7 +91,7 @@ export const reservationId: OperationURLParameter = {
 export const apiVersion: OperationQueryParameter = {
   parameterPath: "apiVersion",
   mapper: {
-    defaultValue: "2022-11-01",
+    defaultValue: "2020-12-15-privatepreview",
     isConstant: true,
     serializedName: "api-version",
     type: {
